@@ -20,6 +20,10 @@ public class Conversion {
         this.resultadoConversion = Float.valueOf(conversion.conversion_result());
     }
 
+    public Conversion() {
+
+    }
+
     @Override
     public String toString() {
         return "Conversion: " +
